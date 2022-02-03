@@ -1,11 +1,10 @@
 package com.rakuten.myhospital;
 
-import javax.transaction.Transaction;
+
 
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
 import org.springframework.context.ApplicationContext;
-import org.springframework.orm.hibernate5.HibernateTransactionManager;
 
 import com.rakuten.myhospital.dao.BedRepository;
 import com.rakuten.myhospital.dao.PatientRepository;
